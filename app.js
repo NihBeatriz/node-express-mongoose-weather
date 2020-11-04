@@ -21,7 +21,7 @@ const eAdmin = require('./helpers/eAdmin')
 //Configurações
 //Sessao
 app.use(session({
-    secret: 'cursodenode',
+    secret: 'weatherapp',
     resave: true,
     saveUninitialized: true
 }))
